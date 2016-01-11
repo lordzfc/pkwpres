@@ -1,0 +1,13 @@
+.reveal .author {
+  width: 50%;
+  float: left;
+}
+
+.reveal .author-photo {
+  border-radius: 50%;
+  max-width: 150px;
+}
+
+.reveal {
+  color: #DBE6E6;
+}
