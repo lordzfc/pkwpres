@@ -1,4 +1,4 @@
-# Generated on 2016-01-09 using generator-reveal 0.5.5
+# Generated on 2016-01-11 using generator-reveal 0.5.5
 module.exports = (grunt) ->
 
     grunt.initConfig
@@ -13,7 +13,6 @@ module.exports = (grunt) ->
                     'index.html'
                     'slides/{,*/}*.{md,html}'
                     'js/*.js'
-                    'css/*.css'
                     'resources/**'
                 ]
 
@@ -32,16 +31,6 @@ module.exports = (grunt) ->
             jshint:
                 files: ['js/*.js']
                 tasks: ['jshint']
-        
-            sass:
-                files: ['css/source/theme.scss']
-                tasks: ['sass']
-
-        sass:
-
-            theme:
-                files:
-                    'css/theme.css': 'css/source/theme.scss'
         
         connect:
 
@@ -81,7 +70,6 @@ module.exports = (grunt) ->
                         'slides/**'
                         'bower_components/**'
                         'js/**'
-                        'css/*.css'
                         'resources/**'
                     ]
                     dest: 'dist/'
@@ -135,7 +123,6 @@ module.exports = (grunt) ->
     grunt.registerTask 'serve',
         'Run presentation locally and start watch process (living document).', [
             'buildIndex'
-            'sass'
             'connect:livereload'
             'watch'
         ]
@@ -143,7 +130,6 @@ module.exports = (grunt) ->
     grunt.registerTask 'dist',
         'Save presentation files to *dist* directory.', [
             'test'
-            'sass'
             'buildIndex'
             'copy'
         ]
