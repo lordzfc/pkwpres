@@ -11,3 +11,12 @@
 .reveal {
   color: #DBE6E6;
 }
+
+.reveal.code-sample-container {
+
+}
+
+.reveal.code-sample-col {
+  width: 50%;
+  display: inline-block;
+}
