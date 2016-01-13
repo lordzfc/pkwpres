@@ -45,3 +45,16 @@
   display: inline;
   vertical-align: middle;
 }
+
+section.page-reklamy-introducton {
+  margin-top: -8%;
+}
+
+section.page-reklamy-introducton * {
+  color: #002b36;
+}
+
+.page-reklamy-introduction div.slide-background.present{
+  /*background-position: center 50px;*/
+  background-size: cover;
+}
