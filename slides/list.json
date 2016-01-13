@@ -1,6 +1,7 @@
 [
     "introduction-01-hello.html",
-    "introduction-02-what.html",
+    "introduction-02-who.html",
+    "introduction-03-what.html",
     "pkw-00-title.html",
     "pkw-01-introduction.html",
     "pkw-02-zalozenia-poczatkowe.html",
@@ -21,5 +22,7 @@
     "reklamy-05-stack.html",
     "reklamy-06-wyzwania.html",
     "reklamy-07-rezultat.html",
-    "summary-01.html"
+    "summary-01.html",
+    "summary-02.html",
+    "summary-03.html"
 ]
