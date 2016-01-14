@@ -1,0 +1,60 @@
+.reveal .authors {
+    overflow: hidden;
+}
+
+.reveal .author {
+  width: 50%;
+  float: left;
+}
+
+.reveal .author-photo {
+  border-radius: 50%;
+  max-width: 150px;
+}
+
+.reveal {
+  color: #DBE6E6;
+}
+
+.reveal.code-sample-container {
+
+}
+
+.reveal.code-sample-col {
+  width: 50%;
+  display: inline-block;
+}
+
+.reveal .logo {
+  width: 170px;
+  height: 170px;
+  line-height: 170px;
+  margin: 0 auto;
+  border-radius: 50%;
+  background: #fff;
+  clear: both;
+  margin-top: 50px;
+}
+
+
+.reveal .logo img {
+  max-width: 65%;
+  border: none;
+  background: none;
+  box-shadow: none;
+  display: inline;
+  vertical-align: middle;
+}
+
+section.page-reklamy-introducton {
+  margin-top: -8%;
+}
+
+section.page-reklamy-introducton * {
+  color: #002b36;
+}
+
+.page-reklamy-introduction div.slide-background.present{
+  /*background-position: center 50px;*/
+  background-size: cover;
+}
